@@ -50,7 +50,7 @@ body{
 
 .navbar li a:hover, li a.active {
     text-decoration: underline;
-    color: gray;
+    color: rgb(165, 165, 165);
 }
 
 .abtn {
@@ -65,4 +65,38 @@ body{
 
 .abtn:hover {
     background-color: rgb(87, 80, 80);
+}
+
+
+
+
+.container {
+    border: 2px solid white;
+    width: 33%;
+    margin: 168px 75px 0px;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.form-grp input {
+    display: block;
+    margin: 10px auto;
+    font-size: 21px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 2px;
+    width: 75%;
+}
+
+.container a{
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    text-align: center;
+    
 }

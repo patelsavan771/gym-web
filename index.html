@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guru Fitness</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet"></head>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+</head>
+
 <body>
 
     <header class="header">
@@ -29,6 +32,43 @@
             <a href="#" class="abtn">Email us</a>
         </div>
     </header>
-    
+
+    <div class="container">
+        <h1>Join the best gym of Mehsana.</h1>
+
+        <form action="noaction.php">
+
+            <div class="form-grp">
+                <input type="text" name="name" placeholder="Enter your Name">
+            </div>
+
+            <div class="form-grp">
+                <input type="number" name="age" placeholder="Enter your Age">
+            </div>
+
+            <div class="form-grp">
+                <input list="gender" name="gender" placeholder="Enter your Gender">
+                <datalist id ="gender">
+                    <option value="male">
+                    <option value="female">
+                    <option value="other">
+                </datalist>
+            </div>
+
+            <div class="form-grp">
+                <input type="email" name="email" placeholder="Enter your Email">
+            </div>
+
+            <div class="form-grp">
+                <input type="number" name="contact-no" placeholder="Enter your Phone Number">
+            </div>
+
+        </form>
+
+        <a href="#" class="abtn">Submit</a>
+
+    </div>
+
 </body>
+
 </html>
